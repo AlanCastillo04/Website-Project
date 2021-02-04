@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background:  rgb(114, 179, 137);
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:rgb(95, 65, 65);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(62, 109, 117);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.img {
+  <img src:https://cdn.thewirecutter.com/wp-content/uploads/2017/12/kids-pedal-bikes-top-2x1-lowres1024-04739.jpg;>
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><u>-- Cycles --</u></h1>
+  <p>“Life is like riding a bicycle. To keep your balance, you must keep moving.”</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="Latest Sales.html">Latest Sales</a>
+  <a href="Orders.html">Orders</a>
+  <a href="Social Media.html">Social Media</a>
+  <a href="AboutMe.html">About Me</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><u>Latest Sales</u></h2>
+      <h4><u>Razor Travel Bike</u></h4>
+      <h3><img src="https://www.shimano-steps.com/content/dam/steps/product-information/mtb/mtb_bike-product-info.png" width="300"></h3>
+      <h5><u>$599.99</u>[Add to cart]</h5>
+      </div>
+
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+      <p><u>Cycle Road Bike</u></p>
+      <h7><img src="https://www.cyclevolta.com/resizer/gjjF1HAIN4B6jFQUxIrWSYWqe3k=/760x506/cloudfront-us-east-1.images.arcpublishing.com/bonnier/AODVD6RRWVAVVJBB5LYPQLNF5A.jpg" width="380"></h7>
+      <p><u>$499.99</u>[Add to cart]</p>
+
+
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+      <h8><u>Razor Default Road Bike</u></h8>
+      <p><img src="https://assets.newatlas.com/dims4/default/46e6f42/2147483647/strip/true/crop/1545x1029+0+0/resize/728x485!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F07%2Fe3%2Ff64372cd4aef8124f2c89382542a%2Fnnyx-02-lg.jpg" width="300"></p>
+      <p><u>$399.99</u>[Add to cart]</p>
+
+
+</body>
+
+</html>
